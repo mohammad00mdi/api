@@ -53,6 +53,7 @@ const FormComponent = () => {
         setLoading(false);
       });
  };
+ console.log();
 
  const handleReset = () => {
     setName("");
