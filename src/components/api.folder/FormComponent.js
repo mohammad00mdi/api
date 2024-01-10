@@ -244,12 +244,12 @@ const FormComponent = () => {
                 >
                   <img
                     src={movie.Poster}
-                    alt={movie.Title}
+                    alt=""
                     style={{ width: "300px" }}
                   />
                   <h3>{movie.Title}</h3>
-                  <p>Genre: '{movieInfo.Genre}'</p>
-                  <p> Runtime: {movieInfo.Runtime} </p>
+                  <p>Genre: '{movie.Genre}'</p>
+                  <p> Runtime: {movie.Runtime} </p>
                   <div
                     style={{
                       marginTop: "30px",
